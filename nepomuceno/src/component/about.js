@@ -35,7 +35,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded-full"
             alt="hero"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7N_-tv1TAZ7hYCqFLVV4oQ1XNTwFn__OzJw&s"
+            src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/322862852_5820407464720237_8950054786359414505_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHFtJkXPML4Y0YJmeam9fZnCv64MQQ0TtoK_rgxBDRO2nsUuCjvbEKvPGEE6ffwGk-Xv6V3oUT3CsQGYFXh69l6&_nc_ohc=LG0EI9yWrakQ7kNvgELx2Ge&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&_nc_gid=A3cALBLuAkamBe3pFZ2t_Tg&oh=00_AYC5iJ5JcIwhJe5Scp3LyhgtoF9NTxzipkMmknP6KP8i-A&oe=673E3A28"
           />
         </div>
       </div>

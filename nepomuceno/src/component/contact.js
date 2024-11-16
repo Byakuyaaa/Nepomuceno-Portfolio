@@ -37,29 +37,29 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60861.20128511924!2d120.39244185000001!3d17.563512799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338e6f821753bae5%3A0x20035e6de330b125!2sVigan%20City%2C%20Ilocos%20Sur!5e0!3m2!1sen!2sph!4v1731081789696!5m2!1sen!2sph"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7726.035475974353!2d121.03700780055539!3d14.483670942188523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf050c2e5669%3A0xb8ac982a609ca81a!2sSM%20City%20Bicutan%20-%20Building%20B!5e0!3m2!1sen!2sph!4v1731743349172!5m2!1sen!2sph"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/3.5 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                Vigan City <br />
-                Ilocos Sur
+              <p className="mt-1 text-white" >
+                Paranaque City <br />
+                Bicutan
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-indigo-400 leading-relaxed text-white">
                 nepomuceno2104434@ceu.edu.ph
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">09777385245</p>
+              <p className="leading-relaxed text-white">09777385245</p>
             </div>
           </div>
         </div>
