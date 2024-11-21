@@ -11,10 +11,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love games and learning new things!
           </h1>
           <p className="mb-8 leading-relaxed">
-            From sleek, modern websites to dynamic, scalable applications, I
-            bring your ideas to life with precision and passion. Let’s create
-            something incredible together — tailored just for your needs and
-            vision.
+            I have great curiosity and a knack for learning. I will use these to be a great asset on your team
           </p>
           <div className="flex justify-center">
             <a
