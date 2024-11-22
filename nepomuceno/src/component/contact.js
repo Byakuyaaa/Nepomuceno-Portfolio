@@ -75,7 +75,7 @@ export default function Contact() {
           {/* Hidden input for Netlify form handling */}
           <input type="hidden" name="form-name" value="contact" />
 
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
