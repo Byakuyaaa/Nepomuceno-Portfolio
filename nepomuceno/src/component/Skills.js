@@ -1,30 +1,32 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import { skills } from "../data"; // assuming skills is an array of skill names.
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
-            Skills &amp; Technologies
+    <section id="skills" className="bg-gray-100 py-20">
+      <div className="container mx-auto px-6">
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <ChipIcon className="w-12 inline-block mb-6 text-green-500" />
+          <h1 className="text-4xl font-semibold text-gray-800 mb-4">
+            Skills & Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          I have experience in all types of different languages and software. All of which I have 
-          at least a basic level of understanding. Here are some of the following:
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            I have experience with a variety of languages and tools. Below is a collection of technologies I’ve worked with:
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+
+        {/* Skills Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
+            <div
+              key={skill}
+              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col justify-center items-center"
+            >
+              {/* Skill Content: Badge (Icon) + Skill Name */}
+              <BadgeCheckIcon className="text-green-500 w-12 h-12 mb-4" />
+              <span className="text-xl font-medium text-gray-800">{skill}</span>
             </div>
           ))}
         </div>

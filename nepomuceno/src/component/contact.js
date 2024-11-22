@@ -36,7 +36,7 @@ export default function Contact() {
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
+            style={{ filter: "opacity(1)" }}
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7726.035475974353!2d121.03700780055539!3d14.483670942188523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf050c2e5669%3A0xb8ac982a609ca81a!2sSM%20City%20Bicutan%20-%20Building%20B!5e0!3m2!1sen!2sph!4v1731743349172!5m2!1sen!2sph"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
